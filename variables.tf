@@ -6,7 +6,7 @@ variable "region" {
 }
 
 variable "cluster_name" {
-  default = "ds22-gitops"  # EKS 클러스터 이름
+  default = "<Cluster_이름>"  # EKS 클러스터 이름
 }
 
 variable "vpc_cidr" {
@@ -79,5 +79,5 @@ variable "aws_auth_users" {
 variable "bastion_key_name" {
   description = "The key name of the Key Pair to use for the bastion instance"
   type        = string
-  default     = "ds22-gitops-key"
+  default     = "<로그인키_이름>"
 }
